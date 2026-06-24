@@ -479,10 +479,10 @@
 
             // 종합 등급 판정 (1등급 90점 이상, 2등급 80점 이상)
             let overallGrade = 5;
-            if (totalScore >= 90) overallGrade = 1;
-            else if (totalScore >= 80) overallGrade = 2;
-            else if (totalScore >= 60) overallGrade = 3;
-            else if (totalScore >= 40) overallGrade = 4;
+            if (totalScore >= 80) overallGrade = 1;
+            else if (totalScore >= 60) overallGrade = 2;
+            else if (totalScore >= 40) overallGrade = 3;
+            else if (totalScore >= 20) overallGrade = 4;
             else overallGrade = 5;
 
             pendingFinalData = {
